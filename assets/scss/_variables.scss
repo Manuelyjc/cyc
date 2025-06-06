@@ -1,0 +1,50 @@
+/* colors and fonts */
+$blue: #2F5872;
+$white: #ffffff;
+$grey: #636569;
+$black: #000000;
+$green: #AFB864;
+$dark-green: #378C8A;
+$black-shadow: #00000040;
+$light-gray: #ECEBEB;
+$light-black: #2B2C2C;
+$clearface-bold: "ITC Clearface Std Bold";
+$arial: Arial, Helvetica, sans-serif;
+$clearface-heavy: "ITC Clearface Std Heavy";
+
+/* mixin */
+@mixin download-container-links($color) {
+  border-radius: 2px;
+  border: 1px solid $color;
+  padding: 10px 12px;
+  gap: 6px;
+  display: flex;
+  align-items: center;
+  background-color: $white;
+  color: $color;
+  font-weight: 700;
+  @include font-18;
+  font-family: $clearface-heavy;
+
+  img {
+    width: 24px;
+    height: 24px;
+    transform: rotate(0deg);
+  }
+
+}
+
+@mixin link-ul() {
+  font-family: $arial;
+  font-weight: 400;
+  @include font-16;
+  color: $white;
+  text-decoration: underline;
+}
+
+
+//responsive 
+$break-small: 576px;
+$break-medium: 767px;
+$break-large: 1023px;
+$break-extralarge: 1199px;

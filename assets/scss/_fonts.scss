@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'ITC Clearface Std Regular';
+  src: url('../fonts/ClearfaceStd-Regular.eot');
+  src: url('../fonts/ClearfaceStd-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ClearfaceStd-Regular.woff2') format('woff2'),
+    url('../fonts/ClearfaceStd-Regular.woff') format('woff'),
+    url('../fonts/ClearfaceStd-Regular.ttf') format('truetype'),
+    url('../fonts/ClearfaceStd-Regular.svg#ClearfaceStd-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'ITC Clearface Std Bold';
+  src: url('../fonts/ClearfaceStd-Bold.eot');
+  src: url('../fonts/ClearfaceStd-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ClearfaceStd-Bold.woff2') format('woff2'),
+    url('../fonts/ClearfaceStd-Bold.woff') format('woff'),
+    url('../fonts/ClearfaceStd-Bold.ttf') format('truetype'),
+    url('../fonts/ClearfaceStd-Bold.svg#ClearfaceStd-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ITC Clearface Std Heavy';
+  src: url('../fonts/ClearfaceStd-Heavy.eot');
+  src: url('../fonts/ClearfaceStd-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ClearfaceStd-Heavy.woff2') format('woff2'),
+    url('../fonts/ClearfaceStd-Heavy.woff') format('woff'),
+    url('../fonts/ClearfaceStd-Heavy.ttf') format('truetype'),
+    url('../fonts/ClearfaceStd-Heavy.svg#ClearfaceStd-Heavy') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* mixin fonts */
+@mixin font-13() {
+  font-size: 13px;
+  line-height: 20.8px;
+}
+
+@mixin font-12() {
+  font-size: 12px;
+  line-height: 19.2px;
+}
+
+@mixin font-14() {
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+@mixin font-16() {
+  font-size: 16px;
+  line-height: 25.6px;
+}
+
+@mixin font-18() {
+  font-size: 18px;
+  line-height: 25.2px;
+}
+
+@mixin font-24() {
+  font-size: 24px;
+  line-height: 31px;
+}
+
+@mixin font-26($line) {
+  font-size: 26px;
+  line-height: $line;
+}
+
+@mixin font-30() {
+  font-size: 30px;
+  line-height: 39px;
+}
+
+
+@mixin font-36() {
+  font-size: 36px;
+  line-height: 43.2px;
+}
+
+@mixin font-60() {
+  font-size: 60px;
+  line-height: 60px;
+}

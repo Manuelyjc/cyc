@@ -1,0 +1,50 @@
+header {
+
+  .container {
+    height: 80px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+    padding: 0px 60px;
+    @media screen and (max-width: $break-small) {
+      padding: 0px 20px;
+      align-items: center;
+    }
+  
+    &.shadow-effect{
+      box-shadow: 0px 4px 7px 0px $black-shadow;
+    }
+
+    img {
+      width: auto;
+      height: 70px;
+      object-fit: cover;
+      @media screen and (max-width: $break-small) {
+        height: auto;
+        content: url('../img/Logo-header-ayg-responsive.png');
+      }
+    }
+  
+    a {
+      width: 127px;
+      height: 36px;
+      padding: 0px 24px;
+      gap: 4px;
+      background-color: $blue;
+      box-shadow: 0px 4px 8px 0px $black-shadow;
+      text-transform: uppercase;
+      font-family: $arial;
+      font-weight: 700;
+      @include font-14();
+      color: $white;
+      text-align: center;
+      align-items: center;
+      margin: auto 0px;
+
+      @media screen and (max-width: $break-small) {
+        background-color: $light-black;
+      }
+
+    }
+  }
+}
