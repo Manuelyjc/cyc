@@ -10,7 +10,7 @@ table , tr , td {border-collapse: collapse; border-spacing: 0;}
 html{scroll-behavior: smooth;}
 
 body{ font-smooth: always; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
-h1 , h2, h3 , h4 , h5, h6{ font-size: inherit; line-height: inherit; }
+h1 , h2, h3 , h4 , h5, h6{ font-size: inherit; line-height: inherit; margin: 0;}
 form{ input , textarea , select { background-color: transparent; appearance: none; display: block; } }
 
 /* classic layout */
@@ -19,12 +19,15 @@ form{ input , textarea , select { background-color: transparent; appearance: non
 body {
   padding: 0;
   margin: 0;
+  font-family: $roboto;
 }
 
 
 .container {
   width: calc(100% - 40px);
-  max-width: 1282px;
-  min-width: 280px;
+  max-width: 1200px;
   margin: 0 auto;
+  position: relative;
 }
+
+
