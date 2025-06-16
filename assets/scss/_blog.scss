@@ -1,0 +1,24 @@
+section.blog {
+  &.container-slider {
+    height: 100vh;
+    background-color: $black;
+    padding: 200px 0px;
+
+    .container {
+    }
+
+    .slider-for {
+      height: 500px;
+      background-color: $white;
+
+      .item {
+        height: 400px;
+        background-color: aqua;
+      }
+    }
+
+    .slider-nav {
+      background-color: $white;
+    }
+  }
+}
